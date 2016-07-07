@@ -1,5 +1,5 @@
 {
-    "name": "atyagi/elasticache-laravel",
+    "name": "dpollard/elasticache-laravel",
     "description": "Elasticache Drivers for Laravel Cache and Session",
     "keywords": ["laravel", "AWS", "Elasticache"],
     "license": "MIT",
