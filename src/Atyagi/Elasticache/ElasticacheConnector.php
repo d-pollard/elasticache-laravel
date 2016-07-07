@@ -14,7 +14,10 @@ class ElasticacheConnector
             return false;
         }
 
-        $memcached = \Cache::getMemcached();
+        // $memcached = \Cache::getMemcached();
+        
+        $memcached = $this->getMemcached();
+        print_r($memcached);
 
         // Set Elasticache options here
         if (defined('\Memcached::OPT_CLIENT_MODE') && defined('\Memcached::DYNAMIC_CLIENT_MODE')) {
